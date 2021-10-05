@@ -12,6 +12,33 @@ async function main() {
   txn = await smartContract.makeAnEpicNFT();
   await txn.wait();
 
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await smartContract.makeAnEpicNFT();
+  await txn.wait();
+
   console.log("MyEpicNFT deployed to:", smartContract.address);
 }
 
